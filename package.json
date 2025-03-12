@@ -1,0 +1,23 @@
+{
+  "name": "autocodit-api",
+  "version": "1.0.0",
+  "description": "API for interacting with DuckDuckGo Chat, served with a Node.js backend.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "install": "npm install",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
