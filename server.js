@@ -11,7 +11,7 @@ const __dirname = dirname(__filename);
 
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10000;
 
 // Serve static files (HTML, CSS, JS) from the 'public' directory
 app.use(express.static(__dirname));
@@ -297,5 +297,5 @@ function delay(ms) {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server listening at http://localhost:${port}`);
+  console.log(`Server listening at http://0.0.0.0:${port}`);
 });
